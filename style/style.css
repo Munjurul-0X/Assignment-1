@@ -316,3 +316,61 @@ span {
   font-size: 15px;
   margin-left: 35px;
 }
+
+/** From Section Stlye **/
+.from-section {
+  max-width: 800px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  margin-left: 260px;
+
+
+
+}
+
+.from-title {
+  max-width: 528px;
+}
+
+.from-title-text {
+  font-size: 97px;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.main-from {}
+
+.input-email {
+  padding: 10px 20px;
+  padding-right: 160px;
+  border: 2px solid rgba(53, 51, 51, 0.192);
+  border-radius: 10px;
+}
+
+.input-name {
+  padding: 10px 20px;
+  padding-right: 160px;
+  border: 2px solid rgba(53, 51, 51, 0.192);
+  border-radius: 10px;
+}
+
+.input-text {
+  padding: 10px 20px;
+  border: 2px solid rgba(53, 51, 51, 0.192);
+  border-radius: 10px;
+
+}
+
+#from-button-style {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+}
