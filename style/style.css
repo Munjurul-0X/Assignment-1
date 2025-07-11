@@ -7,7 +7,11 @@
 
 }
 
+
+
 /** nav style **/
+
+
 header {
   max-width: 1440px;
   background-image: url(../Assets/Hero-bg.png);
@@ -39,7 +43,11 @@ nav {
   color: rgb(39, 39, 255);
 }
 
+
+
 /** shared style **/
+
+
 .btn-primary {
   color: rgb(255, 255, 255);
   border: none;
@@ -59,7 +67,10 @@ nav {
   padding: 10px 30px;
 }
 
+
 /** banner style **/
+
+
 .banner-section {
   display: flex;
   justify-content: center;
@@ -82,7 +93,11 @@ nav {
   height: 105px;
 }
 
+
+
 /**hero section style **/
+
+
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -118,7 +133,11 @@ nav {
 
 }
 
+
+
 /** Productive Users style **/
+
+
 .prodact-user {
   max-width: 1120px;
   background-color: #4d47ff3d;
@@ -172,7 +191,11 @@ nav {
   text-align: right;
 }
 
+
+
 /** Reviewer Profile Style **/
+
+
 .users-reviewer {
   max-width: 1240px;
   display: flex;
@@ -284,7 +307,9 @@ span {
   font-weight: bold;
 }
 
+
 /** Template Section Style **/
+
 
 .template-photo {
   max-width: 840px;
@@ -317,7 +342,10 @@ span {
   margin-left: 35px;
 }
 
+
 /** From Section Stlye **/
+
+
 .from-section {
   max-width: 800px;
   margin-top: 300px;
@@ -340,8 +368,6 @@ span {
   font-weight: bold;
   margin-left: 0;
 }
-
-.main-from {}
 
 .input-email {
   padding: 10px 20px;
@@ -373,4 +399,49 @@ span {
   text-align: center;
   align-items: center;
   white-space: nowrap;
+}
+
+
+/** footer Section Style **/
+
+
+.footer-item {
+  max-width: 454px;
+  margin: 0 auto;
+  text-align: left;
+  align-items: center;
+  padding: 100px 50px 100px 50px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.anchor-items {
+  display: flex;
+  margin-top: 8px;
+  color: white;
+}
+
+.footer-section {
+  background-color: rgba(173, 224, 224, 0.288);
+  max-width: 1450px;
+}
+
+.logo-name {
+  font-size: 90px;
+  font-family: inherit;
+  margin-bottom: 5px;
+  color: blue;
+  margin-left: 75px;
+}
+
+.footer-dic {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
