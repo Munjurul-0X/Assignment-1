@@ -13,6 +13,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 nav {
@@ -88,6 +90,7 @@ nav {
   text-align: center;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 116px;
 }
 
 .hero-title {
@@ -112,4 +115,55 @@ nav {
 .hero-discrib {
   font-size: 24px;
 
+}
+
+/** Productive Users style **/
+.prodact-user {
+  max-width: 1120px;
+  background-color: #4d47ff3d;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
+}
+
+.prodact-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 5px;
+}
+
+.prodact-controller {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prodact-sab-title {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  color: blue;
+  margin: 20px auto 5px;
+}
+
+.prodact-discribtion {
+  text-align: left;
+  margin: 0 auto 50px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#extra-style {
+  text-align: center;
+  align-items: center;
+  color: rgb(2, 6, 253);
+  padding-top: 1px;
+}
+
+#rate {
+  text-align: right;
 }
